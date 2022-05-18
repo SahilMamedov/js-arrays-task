@@ -6,21 +6,14 @@
 
 
 
-let mont=["Yanvar","Fevral","Mart","Aprel","May","Iyun","Iyul","Avqust","Sentyabr"]
 
-function montnum(mont){
+// let mont=["Yanvar","Fevral","Mart","Aprel","May","Iyun","Iyul","Avqust","Sentyabr"]
+// let num=1;
+// let newMont = mont.map((value) => {
+    
+//     value += -num;
+//     num++
+//     return value
+//   });
+//   console.log(newMont)
 
-    let newMont=[];
-    let num=1;
-for (let i = 0; i < mont.length; i++) {
-    
-    mont[i]+= -num
-    newMont.push( mont[i])
-    num++;
-    
-
-    
-}
-return newMont
-}
-console.log(montnum(mont))
